@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&family=Ubuntu:ital@1&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    background-image: 
+    linear-gradient(to right,rgba(0, 0, 0, 0.76) 30%,rgba(9, 9, 51, 0.388))
+, url( image/download.webp)
+    ; 
+    background-position: center;
+   height: 100vh;
+    width:  100%;
+ 
+    background-size: 
+    cover;
+}
+.head:hover{
+    background-image: 
+    linear-gradient(to right,rgba(0, 0, 0, 0.76) 30%,transparent)
+, url( image/download.webp)
+    ; 
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+a{
+  color: white;
+    text-decoration: none;
+  
+}
+a::selection{
+    background-color: white;
+    color: black;
+}
+.logo{
+    font-size: 35px;
+padding: 30px;
+text-transform: uppercase;
+}
+ul{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+li:hover{
+    border-bottom: solid rgba(255, 255, 255, 0.618);
+}
+.content{
+    color: white;
+    width: 50%;
+    margin-top:50px ;
+    padding: 50px;
+}
+h2{
+    font-size: 100px;
+    text-transform: uppercase;
+}
+h2::selection{
+    background-color: white;
+    color: black;
+}
+p{
+    width: 350px;
+    letter-spacing: 2px;
+    padding: 20px 0;
+}
+p::first-line{
+text-transform: capitalize;
+}
+p::selection{
+    background-color: white;
+    color: black;
+}
+input{
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 2px 6px;
+    border: solid 2px transparent;
+    padding-right: 8px;
+}
+input:hover{
+    border-color:white  ;
+    background-color: transparent;
+    color: white;
+}
